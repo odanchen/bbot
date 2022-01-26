@@ -16,8 +16,6 @@ def get_chat_ids() -> list:
 ELIGIBLE_CHATS = get_chat_ids()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-print(ELIGIBLE_CHATS)
-
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 
