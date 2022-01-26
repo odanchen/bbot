@@ -13,7 +13,7 @@ def get_chat_ids() -> list:
     return [item.get("id") for item in data]
 
 
-ELIGIBLE_CHATS = get_chat_ids()  # [522982703, -388961102]
+ELIGIBLE_CHATS = get_chat_ids()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 print(ELIGIBLE_CHATS)
